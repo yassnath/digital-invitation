@@ -60,7 +60,7 @@ body {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url(../images/popup.JPG);
+  background-image: url(../images/popup.png);
   background-size: cover;
   background-position: center; /* Latar belakang transparan */
   min-height: 100vh;
@@ -118,6 +118,10 @@ body {
   background-color: var(--dark-100);
   box-shadow: 1px 1px 3px rgba(58, 79, 71, 0.8);
   cursor: pointer;
+
+  
+  border-radius: 999px;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background-color 0.2s ease, letter-spacing 0.2s ease;
 }
 
 /* my logo */
@@ -353,6 +357,12 @@ body {
   font-size: 1.4rem;
   background-color: var(--warning);
   text-transform: uppercase;
+
+  
+  border-radius: 999px;
+  box-shadow: 0.8rem 0.8rem 2rem rgba(58, 79, 71, 0.18);
+  transition: transform 0.15s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  letter-spacing: 1px;
 }
 .cba i {
   margin-right: 0.5rem;
@@ -744,6 +754,10 @@ body {
   text-transform: uppercase;
   margin-top: 1rem;
   letter-spacing: 2px;
+
+  
+  border-radius: 999px;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 .cbt:hover {
   background-color: var(--dark-75);
@@ -1411,4 +1425,52 @@ footer .credit h5 {
   html {
     font-size: 52%;
   }
+}
+
+
+
+/* Button improvements (keeping existing theme) */
+.close:hover,
+.cba:hover,
+.cbt:hover {
+  transform: translateY(-2px);
+}
+
+.close:active,
+.cba:active,
+.cbt:active {
+  transform: translateY(0);
+}
+
+.close:hover {
+  background-color: var(--warning);
+  box-shadow: 0.8rem 0.8rem 2.5rem rgba(58, 79, 71, 0.35);
+  letter-spacing: 2px;
+}
+
+.cba:hover {
+  filter: brightness(0.95);
+  box-shadow: 1rem 1rem 3rem rgba(58, 79, 71, 0.25);
+}
+
+.cbt:hover {
+  background-color: var(--dark-75);
+  color: var(--bg);
+  border-color: var(--dark-75);
+  box-shadow: 0.8rem 0.8rem 2.5rem rgba(58, 79, 71, 0.25);
+}
+
+/* Better focus for accessibility */
+.close:focus-visible,
+.cba:focus-visible,
+.cbt:focus-visible {
+  outline: 3px solid rgba(248, 181, 1, 0.45);
+  outline-offset: 4px;
+}
+
+/* Zoom-in for Event slider images */
+.event .card .box-img .slider-img img.event-img,
+.event-2 .card .box-img .slider-img img.event-2-img {
+  transform: scale(1.12);
+  transform-origin: center;
 }
