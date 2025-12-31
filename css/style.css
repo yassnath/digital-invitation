@@ -1042,7 +1042,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(../images/popup.JPG);
+  background-image: url(../images/popup.png);
   background-size: cover;
   background-position: center;
   position: relative;
