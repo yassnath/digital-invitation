@@ -1,0 +1,12 @@
+{
+  "name": "digital-invitation",
+  "version": "1.0.0",
+  "description": "Digital Invitation static website - optimized images",
+  "main": "index.js",
+  "scripts": {
+    "optimize:images": "node tools/optimize-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

@@ -60,7 +60,7 @@ body {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url(../images/popup.png);
+  background-image: url(../images/popup.webp);
   background-size: cover;
   background-position: center; /* Latar belakang transparan */
   min-height: 100vh;
@@ -1042,7 +1042,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(../images/popup.png);
+  background-image: url(../images/popup.webp);
   background-size: cover;
   background-position: center;
   position: relative;
