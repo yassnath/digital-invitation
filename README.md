@@ -1,31 +1,26 @@
 # Digital Invitation by Solvix Studio
 
-Satu halaman undangan digital yang tidak cuma cantik, tapi juga terasa hidup.  
-Didesain untuk momen pernikahan dengan nuansa elegan, alur cerita yang menyentuh, dan pengalaman tamu yang interaktif dari awal sampai akhir.
+A single-page wedding invitation website designed to feel elegant, emotional, and interactive from the first click to the final section.
 
-## Kenapa Ini Menjual
+## Advantages
 
-Website undangan ini membantu calon pengantin tampil lebih premium di mata tamu, keluarga, dan relasi.  
-Bukan sekadar "link undangan", ini adalah presentasi momen sakral dalam format digital yang modern, ringan, dan memorable.
+- Premium visual presentation for couples, families, and guests.
+- Mobile-friendly layout optimized for social sharing and messaging apps.
+- Interactive experience with countdown, gallery, RSVP messages, and gift section.
+- Fast-loading media workflow with modern image assets (`.webp` / `.avif`).
+- Ready-to-customize structure for personal use or invitation service businesses.
 
-## Highlight Utama
+## Core Features
 
-- Hero section sinematik dengan slider visual dan countdown acara.
-- Popup pembuka dengan musik latar untuk kesan pertama yang kuat.
-- Profil kedua mempelai yang rapi dan personal.
-- Alur Love Story untuk membangun kedekatan emosional.
-- Detail acara akad dan resepsi lengkap dengan waktu dan lokasi.
-- Galeri momen dalam format lightbox yang nyaman dilihat.
-- Fitur Wedding Gift dengan tombol salin nomor rekening.
-- Form RSVP ucapan dan doa untuk interaksi tamu langsung di halaman.
-- AOS animation, ikon, dan visual assets yang sudah siap pakai.
-
-## Nilai Untuk Klien
-
-- Tampilan profesional untuk meningkatkan kesan eksklusif.
-- Mobile-friendly dan cocok dibagikan lewat WhatsApp/Instagram.
-- Siap dipakai untuk kebutuhan personal maupun jasa pembuatan undangan.
-- Struktur aset sudah tertata, memudahkan branding ulang sesuai pasangan.
+- Cinematic hero section with image slider and wedding countdown timer.
+- Opening popup with background music for a strong first impression.
+- Bride and groom profile sections with social media links.
+- Love Story timeline to deliver a personal narrative.
+- Full event details for ceremony and reception (time and location).
+- Lightbox gallery for memorable moments.
+- Wedding gift cards with copy-to-clipboard account action.
+- RSVP message form for guest wishes and prayers.
+- Scroll animations and polished UI support (AOS, icons, and alerts).
 
 ## Tech Snapshot
 
